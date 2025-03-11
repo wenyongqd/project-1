@@ -1,4 +1,4 @@
-// Exercise 4: Route groups
+// Removed the "Contact Us" card
 export default function ContactPage() {
   return (
     <div className="p-6">

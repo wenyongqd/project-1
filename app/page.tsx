@@ -72,6 +72,21 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Contact Section */}
+      <div className="w-full">
+        <Card>
+          <CardHeader>
+            <CardTitle>Contact Us</CardTitle>
+            <CardDescription>Get in touch with us</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Button asChild variant="outline" className="w-full">
+              <Link href="/contact">Contact</Link>
+            </Button>
+          </CardContent>
+        </Card>
+      </div>
     </div>
   );
 }
